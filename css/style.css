@@ -1,0 +1,327 @@
+.topplace {
+    display:flex;
+
+}
+
+.middleplace{
+    /* padding-left: 32%; */
+    /*padding-right: 36%;*/
+    margin-left: 33%;
+}
+
+.rightplace{
+    float:right;
+    padding-right:2%;
+    margin-left: 33%;
+}
+
+.wholetop{
+    padding:4%;
+}
+
+body {
+    background-color:rgba(174, 43, 10, 0.679);
+    background: url(../images/background/Fuji.jpg);
+    background-size: 100%;
+}
+
+.navbar ul{
+    display:flex;
+    list-style-type: none;
+    padding: 1%;
+    margin:0%;
+    background-color: rgb(135, 36, 49);
+    overflow: hidden;
+    justify-content: center;
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight:bold;
+    
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+.navbar li{
+    float: left;
+    display:flex;
+    border-color: rgb(131, 74, 82);
+    background-color: rgb(131, 74, 82);
+    
+    
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a:active {
+    background-color: rgb(147, 232, 62);
+    color: white;
+}
+
+input[type=text]:focus {
+    background-color: rgb(238, 74, 96);
+}
+
+
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    font-family:'Calibri', sans-serif;
+    color:white;
+    background-color: red;
+    /* width: 40%; */
+    
+    
+
+}
+
+h7{
+    font-family: 'Calibri';
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(63, 16, 16);
+    color: white;
+    text-align: center;
+}
+
+main {
+   padding:3%;
+   background-color: rgb(131, 74, 82);
+
+}
+
+.maincont {
+    border: 3px groove red;
+    
+    
+}
+
+.box1 {
+    display: flex;
+}
+.ArashiPara {
+    padding:2%;
+    font-size: 20px;
+    font-family:'Calibri', sans-serif;
+    font-style: italic;
+    
+    
+
+}
+.ArashiPic {
+    padding:2%;
+}
+
+#AraTitle {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(5, 136, 5);
+    text-shadow: 1.2px 1.2px rgb(15, 68, 35);
+
+
+}
+
+.lowerpara{
+    padding: 2%;
+    padding-left:10%;
+    padding-right:10%;
+    font-family: 'Calibri',sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height:150%;
+
+}
+
+.upcoming{
+    font-family: 'Calibri', sans-serif;
+    font-size: 22px;
+    
+    padding-left:39%;
+    background-color: rgb(131, 66, 82);
+    
+}
+
+
+
+.box2 {
+    display: flex;
+    padding: 2%;
+}
+
+#FujiTitle {
+    font-weight: bold;
+    font-size: 24px;
+    color:rgb(44, 14, 108);
+}
+
+.MtFujiPara {
+    padding:2%;
+    font-size: 20px;
+    font-family:'Calibri', sans-serif;
+    font-style: italic;
+}
+
+section.arashibox{
+    padding-left:10%;
+    
+
+}
+.glossary{
+    font-family: 'Calibri', sans-serif;
+    font-size: 17px;
+    
+    padding-left:2%;
+    background-color: rgb(131, 66, 82);
+    
+}
+
+#glossp{
+    font-weight:bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+dt{ 
+    font-weight: bold;
+    font: size 16;
+
+}
+
+dd{
+    font: size 14px;
+    font-style:italic;
+}
+
+.lbox {
+    outline:2px solid #ccc;
+    border:3px solid black;
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
+    padding: 1%;
+
+}
+
+.mbox {
+    outline:2px solid #ccc;
+    border:3px solid black;
+    height: auto;
+    padding: 1%;
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
+}
+
+.rbox {
+    outline:2px solid #ccc;
+    border:3px solid black;
+    text-align: center;
+    padding: 1%;
+}
+#tjpara{
+    text-align: center;
+    
+}
+figcaption{
+    font-family: 'Calibri', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.email{
+    /* position: fixed;
+    bottom: 50%;
+    right: 50%;
+    width: 3%;*/
+    display: flex;
+    font-family: 'Calibri', sans-serif;
+    margin-left: 47%;
+    margin-top: 10%;
+    float:left;
+    color:white;
+    padding:1%;
+    
+    z-index: 1;
+}
+.num{
+    /* position: fixed;
+    bottom: 50%;
+    right: 30%;
+    width: 3%;*/
+    display: flex;
+    font-family: 'Calibri', sans-serif;
+    margin-left: 47%;
+    margin-top: 0%;
+    float:left;
+    color:white;
+    padding: 1%;
+   
+}
+
+.insta {
+    display: flex;
+    font-family: 'Calibri', sans-serif;
+    margin-left: 45.5%;
+    margin-top:auto;
+    float:left;
+    color:white;
+    padding:1%;
+    /* padding-top: 8%; */
+    
+}
+
+.overlay{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background-color: rgb(131, 74, 82);
+    height: 1px;
+    padding: 10%;
+    z-index: -1;
+    opacity: 86%;
+    margin-left: 40%;
+    margin-top: 6%;
+    border: 15px solid red;
+    /* filter:blur(90%) */
+    
+}
+
+/* .test {
+    background-color: pink;
+    background-size: 20%;
+    
+} */
+.table, th, td{
+    border: 3px solid rgba(149, 12, 12, 0.679); 
+    justify-content: center;
+    background-color: rgb(174, 43, 10, 0.679);;
+    color: white;
+    font-family: 'Calibri',sans-serif;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+   
+}
+table tr:last-child {
+    font-weight: bold;
+    background-color: rgb(47, 7, 7);
+
+  }
+
+table tr:first-child{
+    background-color: rgb(47, 7, 7);
+}
+.estimates{
+    justify-content: center;
+    border: 10px solid rgba(78, 0, 0, 0.679);
+    border-radius: 10px;
+    
+    margin: auto;
+    
+}
