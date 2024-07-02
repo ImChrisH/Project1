@@ -2,17 +2,24 @@
     display:flex;
 
 }
+.leftplace {
+    margin-left:0%;
 
+
+}
 .middleplace{
     /* padding-left: 32%; */
     /*padding-right: 36%;*/
-    margin-left: 33%;
+    margin-left: 32%;
+    
 }
 
 .rightplace{
     float:right;
     padding-right:2%;
-    margin-left: 33%;
+    margin-left: 32%;
+
+    
 }
 
 .wholetop{
@@ -21,23 +28,53 @@
 
 body {
     background-color:rgba(174, 43, 10, 0.679);
-    background: url(../images/background/Fuji.jpg);
+    background: url(../images/background/Fuji2.jpg);
     background-size: 100%;
+}
+.arashibody {
+    background: url(../images/background/arashiyama.jpg);
+    background-size:  100%;
+}
+
+.fujibody {
+    background: url(../images/background/Fuji.jpg);
+    background-size:  100%;
+}
+
+.budgetbody {
+    background: url(../images/background/piggybank.jpg);
+    background-size:  100%;
+}
+
+.contactbody{
+    background: url(../images/background/crossing.jpeg);
+    background-size:  100%;
 }
 
 .navbar ul{
     display:flex;
     list-style-type: none;
     padding: 1%;
-    margin:0%;
+    /* margin:0%; */
+    margin:auto;
+    
     background-color: rgb(135, 36, 49);
-    overflow: hidden;
+    
     justify-content: center;
     font-family: Calibri;
     font-size: 20px;
     font-weight:bold;
+    border: 4px outset rgba(255, 0, 0, 0.888);
+    border-radius: 30px;
     
 }
+
+/* .navbar :hover{
+    border:1px inset rgba(255, 0, 0, 0.888);
+    border-radius: 30px;
+
+
+/} */
 
 .navbar a{
     color:white;
@@ -48,36 +85,83 @@ body {
 .navbar li{
     float: left;
     display:flex;
-    border-color: rgb(131, 74, 82);
+    /* border-color: rgb(131, 74, 82); */
     background-color: rgb(131, 74, 82);
-    
+    border-radius: 30px;
+    /* border:2px solid red; */
     
 }
+
 
 .navbar a:hover {
     background-color: #ddd;
     color: black;
+    border:3px;
+    border-radius: 30px;
 }
 
 .navbar a:active {
-    background-color: rgb(147, 232, 62);
+    background-color: /*rgb(147, 232, 62);*/ red;
     color: white;
 }
 
+
+
+input[type=text] {
+    background-color: rgb(215, 71, 90);
+    color:wheat;
+    font-family: 'Calibri', sans-serif;
+    font-size:18px;
+    opacity: 90%;
+    border-radius: 30px;
+    text-align: center;
+}
 input[type=text]:focus {
-    background-color: rgb(238, 74, 96);
+    background-color: rgb(247, 247, 247);
+    color: rgb(0, 0, 0);
+    font-family: 'Calibri', sans-serif;
+    font-style:none;
+    font-size:18px;
+    opacity: 100%;
+    
 }
 
+button[type=submit] {
+    background-color: #6fab15a8;
+    color:wheat;
+    font-family: 'Calibri', sans-serif;
+    font-size:18px;
+    opacity:90%;
+    border-radius: 30px;
 
+}
+
+button[type=submit]:active {
+    background-color: #05070371;
+    font-family: 'Calibri', sans-serif;
+    font-size:18px;
+    opacity: 100%;
+}
+
+button[type=submit]:hover {
+    background-color: #6fab15;
+    font-family: 'Calibri', sans-serif;
+    font-size:18px;
+    opacity: 100%;
+
+}
 
 h1 {
     text-align: center;
     justify-content: center;
     font-family:'Calibri', sans-serif;
     color:white;
-    background-color: red;
-    /* width: 40%; */
-    
+    background-color: rgb(149, 74, 84);
+    width: 30%;
+    border: 5px inset red;
+    border-radius: 30px;
+    opacity: 96%;
+    margin:auto;
     
 
 }
@@ -96,23 +180,33 @@ h7{
 main {
    padding:3%;
    background-color: rgb(131, 74, 82);
-
+   /* border: 5px solid red; looks better without border? */
+   border-radius: 30px;
+   opacity: 90%;
+  
 }
 
 .maincont {
     border: 3px groove red;
+    border-radius: 20px;
     
     
 }
 
 .box1 {
     display: flex;
+    /* align-items: center; */
+    justify-content: center;
 }
 .ArashiPara {
     padding:2%;
-    font-size: 20px;
+    font-size: 22px;
     font-family:'Calibri', sans-serif;
-    font-style: italic;
+    /* font-style: italic; */
+    text-shadow: 1.3px 1.3px black;
+    line-height: 40px;
+    text-align: left;
+    color:wheat;
     
     
 
@@ -123,33 +217,11 @@ main {
 
 #AraTitle {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 35px;
     color: rgb(5, 136, 5);
-    text-shadow: 1.2px 1.2px rgb(15, 68, 35);
-
-
+    text-shadow: 1.3px 1.3px rgb(15, 68, 35);
+    font-style: oblique;
 }
-
-.lowerpara{
-    padding: 2%;
-    padding-left:10%;
-    padding-right:10%;
-    font-family: 'Calibri',sans-serif;
-    font-size: 20px;
-    text-align: center;
-    line-height:150%;
-
-}
-
-.upcoming{
-    font-family: 'Calibri', sans-serif;
-    font-size: 22px;
-    
-    padding-left:39%;
-    background-color: rgb(131, 66, 82);
-    
-}
-
 
 
 .box2 {
@@ -159,36 +231,101 @@ main {
 
 #FujiTitle {
     font-weight: bold;
-    font-size: 24px;
-    color:rgb(44, 14, 108);
+    font-size: 35px;
+    color:rgb(70, 24, 170);
+    text-shadow: 1.3px 1.3px rgb(0, 0, 0);
+    text-align: right;
+    font-style: oblique;
 }
 
 .MtFujiPara {
     padding:2%;
-    font-size: 20px;
+    font-size: 22px;
     font-family:'Calibri', sans-serif;
-    font-style: italic;
+    /* font-style: italic; */
+    text-shadow: 1.3px 1.3px black;
+    line-height: 40px;
+    color: wheat;
 }
 
-section.arashibox{
-    padding-left:10%;
-    
+#indent {
+    text-indent: 10%;
+}
 
+
+
+#tjpara{
+    text-align: center;
+    /* font-weight:bold; */
+    /* color:rgb(160, 191, 37); */
+    color:white;
+    text-shadow: 1.2px 1.2px rgb(0, 0, 0);
+    line-height: 28px;
+}
+figcaption{
+    font-family: 'Calibri', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color:white;
+    
+}
+
+.lowerpara{
+    padding: 2%;
+    padding-left:10%;
+    padding-right:10%;
+    font-family: 'Calibri',sans-serif;
+    font-size: 22px;
+    text-align: center;
+    line-height:40px;
+    /* font-weight: bold; */
+    color:wheat;
+    text-shadow: 1.2px 1.2px black;
+
+}
+
+
+.upcoming{
+    font-family: 'Calibri', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    /* padding-left:39%; */
+    background-color: rgba(255, 0, 0, 0.136);
+    /* color:rgb(255, 255, 255); */
+    border-radius: 10px;
+    border:3px inset rgb(255, 0, 0);
+    width:20%;
+    margin: auto;
+    
+}
+
+#UEP {
+    font-size:24px;
+    color: wheat;
+}
+
+
+.liarashi {
+    border:none;
 }
 .glossary{
     font-family: 'Calibri', sans-serif;
     font-size: 17px;
-    
     padding-left:2%;
     background-color: rgb(131, 66, 82);
-    
+    color:rgb(255, 255, 255);
+    border-radius: 30px;
+    border:3px dotted red;
+    width:20%;
+    margin-right: auto;
 }
 
 #glossp{
     font-weight:bold;
     font-size: 20px;
-    text-decoration: underline;
+    color:rgb(255, 255, 255);
 }
+
 
 dt{ 
     font-weight: bold;
@@ -203,37 +340,36 @@ dd{
 
 .lbox {
     outline:2px solid #ccc;
-    border:3px solid black;
+    border:2px solid red;
     font-family: 'Calibri', sans-serif;
     text-align: center;
-    padding: 1%;
-
+    padding: 2%; 
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
 }
 
 .mbox {
     outline:2px solid #ccc;
-    border:3px solid black;
-    height: auto;
-    padding: 1%;
+    border:2px solid red;
+    /* height: auto; */
+    padding:1%;
     font-family: 'Calibri', sans-serif;
     font-size: 20px;
+    background-color: rgb(132, 42, 54);
+    
 }
 
 .rbox {
     outline:2px solid #ccc;
-    border:3px solid black;
+    border:2px solid red;
     text-align: center;
     padding: 1%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* height:10%; */
 }
-#tjpara{
-    text-align: center;
-    
-}
-figcaption{
-    font-family: 'Calibri', sans-serif;
-    font-size: 18px;
-    font-style: italic;
-}
+
 
 .email{
     /* position: fixed;
@@ -242,13 +378,13 @@ figcaption{
     width: 3%;*/
     display: flex;
     font-family: 'Calibri', sans-serif;
-    margin-left: 47%;
-    margin-top: 10%;
+    margin-left: 46%;
+    margin-top: 4%;
     float:left;
     color:white;
     padding:1%;
-    
-    z-index: 1;
+    font-size: 20px;
+    text-shadow: 1.2px 1.2px black;
 }
 .num{
     /* position: fixed;
@@ -257,23 +393,25 @@ figcaption{
     width: 3%;*/
     display: flex;
     font-family: 'Calibri', sans-serif;
-    margin-left: 47%;
+    margin-left: 45.7%;
     margin-top: 0%;
     float:left;
     color:white;
     padding: 1%;
-   
+    font-size: 20px;
+    text-shadow: 1.2px 1.2px black;
 }
 
 .insta {
     display: flex;
     font-family: 'Calibri', sans-serif;
-    margin-left: 45.5%;
+    margin-left: 43.6%;
     margin-top:auto;
     float:left;
     color:white;
     padding:1%;
-    /* padding-top: 8%; */
+    font-size: 20px;
+    text-shadow: 1.2px 1.2px black;
     
 }
 
@@ -286,11 +424,21 @@ figcaption{
     padding: 10%;
     z-index: -1;
     opacity: 86%;
-    margin-left: 40%;
-    margin-top: 6%;
-    border: 15px solid red;
-    /* filter:blur(90%) */
+    margin-left: 39%;
+    margin-top: 1%;
+    border: 8px outset red;
+    border-radius: 30px;
     
+    
+}
+
+.overlay:hover{
+    /* border: 8px solid rgba(146, 255, 21, 0.388); */
+    border: 8px solid rgba(255, 0, 0, 0.388);
+    border-radius: 30px;
+    background-color:#4e7711;    
+
+
 }
 
 /* .test {
